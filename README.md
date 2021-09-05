@@ -33,3 +33,8 @@ go install
 ```
 
 `check-golang-templates -folder /home/user/templates`
+
+###### Notes
+
+if you want to check a specific template(s) you can use the `-pattern` flag.
+
