@@ -17,7 +17,12 @@ docker run -v /home/user/templates:/templates gosom/check-golang-templates check
 
 ##### Option 2 (Download binary [ Linux Only ])
 
+Download the latest binary from the releases: https://github.com/gosom/check-golang-templates/releases/tag/v1.0.0
+
+Make it executable if needed and run
+
 `check-golang-templates -folder /home/user/templates`
+
 ##### Option 3(Build on your own)
 
 ```
