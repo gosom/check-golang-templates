@@ -42,7 +42,7 @@ func main() {
 	}
 
 	if len(filenames) == 0 {
-		fmt.Fprintf(os.Stderr, "pattern matches no files: %#q", searchpattern)
+		fmt.Fprintf(os.Stderr, "pattern matches no files: %#q\n", searchpattern)
 		os.Exit(4)
 	}
 
