@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/CloudyKit/jet/v6"
+	"github.com/CloudyKit/jet"
 )
 
 func main() {
@@ -29,9 +29,10 @@ func main() {
 		pattern = "*"
 	}
 
-	loader := jet.NewOSFileSystemLoader(folder)
-	views := jet.NewSet(
-		loader,
+	//loader := jet.NewOSFileSystemLoader(folder)
+	views := jet.NewHTMLSet(
+		folder,
+		//loader,
 	)
 	searchpattern := filepath.Join(folder, pattern)
 
